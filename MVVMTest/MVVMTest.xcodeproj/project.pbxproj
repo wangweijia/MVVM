@@ -32,6 +32,8 @@
 		18699C721DC74D5400173401 /* ThirdViewControllerVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C711DC74D5400173401 /* ThirdViewControllerVM.m */; };
 		189EA9D01D5315AE00FFBEDF /* DaySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EA9CF1D5315AE00FFBEDF /* DaySchedule.m */; };
 		18E2A9011DC86C0300E94681 /* OrderDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A9001DC86C0300E94681 /* OrderDetail.m */; };
+		18E2A9051DC88C5900E94681 /* OrderPayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A9031DC88C5900E94681 /* OrderPayCell.m */; };
+		18E2A9061DC88C5900E94681 /* OrderPayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E2A9041DC88C5900E94681 /* OrderPayCell.xib */; };
 		18EFA0871D51EC2900044A68 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFA0851D51EC2800044A68 /* SecondViewController.m */; };
 		18EFA0881D51EC2900044A68 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EFA0861D51EC2900044A68 /* SecondViewController.xib */; };
 		18EFA08B1D51EC7400044A68 /* SecondViewControllerVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFA08A1D51EC7400044A68 /* SecondViewControllerVM.m */; };
@@ -89,6 +91,9 @@
 		189EA9CF1D5315AE00FFBEDF /* DaySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaySchedule.m; sourceTree = "<group>"; };
 		18E2A8FF1DC86C0300E94681 /* OrderDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetail.h; sourceTree = "<group>"; };
 		18E2A9001DC86C0300E94681 /* OrderDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetail.m; sourceTree = "<group>"; };
+		18E2A9021DC88C5900E94681 /* OrderPayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderPayCell.h; sourceTree = "<group>"; };
+		18E2A9031DC88C5900E94681 /* OrderPayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderPayCell.m; sourceTree = "<group>"; };
+		18E2A9041DC88C5900E94681 /* OrderPayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderPayCell.xib; sourceTree = "<group>"; };
 		18EFA0841D51EC2800044A68 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		18EFA0851D51EC2800044A68 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		18EFA0861D51EC2900044A68 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
@@ -311,6 +316,9 @@
 				18699C6B1DC744A000173401 /* ThirdViewController.h */,
 				18699C6C1DC744A000173401 /* ThirdViewController.m */,
 				18699C6D1DC744A000173401 /* ThirdViewController.xib */,
+				18E2A9021DC88C5900E94681 /* OrderPayCell.h */,
+				18E2A9031DC88C5900E94681 /* OrderPayCell.m */,
+				18E2A9041DC88C5900E94681 /* OrderPayCell.xib */,
 			);
 			name = V/VC;
 			sourceTree = "<group>";
@@ -437,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				180D1CCA1D518AED00EEF51E /* DoctorInfoCell.xib in Resources */,
+				18E2A9061DC88C5900E94681 /* OrderPayCell.xib in Resources */,
 				1865F3C21D5032DB00BC56F5 /* LaunchScreen.storyboard in Resources */,
 				18699C6F1DC744A000173401 /* ThirdViewController.xib in Resources */,
 				1841F7281D53181F00A912EB /* DayScheduleCell.xib in Resources */,
@@ -514,6 +523,7 @@
 				1865F3B71D5032DB00BC56F5 /* AppDelegate.m in Sources */,
 				1865F3F71D503BB900BC56F5 /* FirstViewControllerVM.m in Sources */,
 				1865F3B41D5032DB00BC56F5 /* main.m in Sources */,
+				18E2A9051DC88C5900E94681 /* OrderPayCell.m in Sources */,
 				1865F4041D504E6100BC56F5 /* Doctor.m in Sources */,
 				18EFA0871D51EC2900044A68 /* SecondViewController.m in Sources */,
 				18699C661DC71FE100173401 /* NSObject+MVVMViewModel.m in Sources */,

@@ -10,7 +10,7 @@
 #import "NSObject+MVVMViewModel.h"
 @class ThirdViewController;
 
-@interface ThirdViewControllerVM : NSObject
+@interface ThirdViewControllerVM : NSObject <UITableViewDataSource>
 
 #pragma - mark 与 vc 通信的功能
 /**
