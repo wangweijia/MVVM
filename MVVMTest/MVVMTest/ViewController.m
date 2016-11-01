@@ -100,8 +100,10 @@
 
 - (IBAction)thirdViewControllerButton:(id)sender {
     ThirdViewController *vc = [[ThirdViewController alloc] initMVVM_ViewController];
-    
-    [self.navigationController pushViewController:vc animated:YES];
+
+    [[vc.baseVM.requestData execute:nil] subscribeNext:^(id x) {
+        [self.navigationController pushViewController:vc animated:YES];
+    }];
 }
 
 @end

@@ -31,6 +31,7 @@
 		18699C6F1DC744A000173401 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18699C6D1DC744A000173401 /* ThirdViewController.xib */; };
 		18699C721DC74D5400173401 /* ThirdViewControllerVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699C711DC74D5400173401 /* ThirdViewControllerVM.m */; };
 		189EA9D01D5315AE00FFBEDF /* DaySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EA9CF1D5315AE00FFBEDF /* DaySchedule.m */; };
+		18E2A9011DC86C0300E94681 /* OrderDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A9001DC86C0300E94681 /* OrderDetail.m */; };
 		18EFA0871D51EC2900044A68 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFA0851D51EC2800044A68 /* SecondViewController.m */; };
 		18EFA0881D51EC2900044A68 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EFA0861D51EC2900044A68 /* SecondViewController.xib */; };
 		18EFA08B1D51EC7400044A68 /* SecondViewControllerVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFA08A1D51EC7400044A68 /* SecondViewControllerVM.m */; };
@@ -86,6 +87,8 @@
 		18699C711DC74D5400173401 /* ThirdViewControllerVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewControllerVM.m; sourceTree = "<group>"; };
 		189EA9CE1D5315AE00FFBEDF /* DaySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaySchedule.h; sourceTree = "<group>"; };
 		189EA9CF1D5315AE00FFBEDF /* DaySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaySchedule.m; sourceTree = "<group>"; };
+		18E2A8FF1DC86C0300E94681 /* OrderDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetail.h; sourceTree = "<group>"; };
+		18E2A9001DC86C0300E94681 /* OrderDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetail.m; sourceTree = "<group>"; };
 		18EFA0841D51EC2800044A68 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		18EFA0851D51EC2800044A68 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		18EFA0861D51EC2900044A68 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
@@ -287,6 +290,8 @@
 		18699C681DC743FA00173401 /* M */ = {
 			isa = PBXGroup;
 			children = (
+				18E2A8FF1DC86C0300E94681 /* OrderDetail.h */,
+				18E2A9001DC86C0300E94681 /* OrderDetail.m */,
 			);
 			name = M;
 			sourceTree = "<group>";
@@ -504,6 +509,7 @@
 				1865F3BA1D5032DB00BC56F5 /* ViewController.m in Sources */,
 				1865F3F31D503B7200BC56F5 /* FirstViewController.m in Sources */,
 				1865F3FD1D503C4000BC56F5 /* MVVMBaseViewControllerVM.m in Sources */,
+				18E2A9011DC86C0300E94681 /* OrderDetail.m in Sources */,
 				1841F72B1D5318B600A912EB /* DayScheduleCellM.m in Sources */,
 				1865F3B71D5032DB00BC56F5 /* AppDelegate.m in Sources */,
 				1865F3F71D503BB900BC56F5 /* FirstViewControllerVM.m in Sources */,
