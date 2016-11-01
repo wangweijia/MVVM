@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "UIViewController+MVVMViewController.h"
+#import "ThirdViewControllerVM.h"
 
 @interface ThirdViewController : UIViewController
+
+- (ThirdViewControllerVM *)baseVM;
 
 @end
