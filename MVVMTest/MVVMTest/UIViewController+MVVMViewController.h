@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "MVVMViewControllerProtocol.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
-@interface UIViewController (MVVMViewController) <MVVMBaseViewControllerProtocol>
+@interface UIViewController (MVVMViewController) <MVVMViewControllerProtocol>
 
 /**
  初始化方法
