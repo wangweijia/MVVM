@@ -28,7 +28,7 @@ static NSString *MVVM_targetVC = @"MVVM_targetVC";
 }
 
 - (void)setTargetVC:(UIViewController *)targetVC {
-    objc_setAssociatedObject(self, &MVVM_targetVC, targetVC, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, &MVVM_targetVC, targetVC, OBJC_ASSOCIATION_ASSIGN);
     
     [self targetVC];
 }
