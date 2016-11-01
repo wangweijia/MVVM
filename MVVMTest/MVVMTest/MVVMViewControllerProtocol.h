@@ -12,8 +12,7 @@
 
 #endif /* MVVMBaseViewControllerProtocol_h */
 
-@protocol MVVMBaseViewControllerProtocol <NSObject>
-
+@protocol MVVMViewControllerProtocol <NSObject>
 
 /**
  指向自己对应的 控制器模型
