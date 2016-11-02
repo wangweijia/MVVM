@@ -12,6 +12,11 @@
 
 @interface ThirdViewController : UIViewController
 
+/**
+ 为了方便转换成（ThirdViewControllerVM *）重写声明
+
+ @return ThirdViewControllerVM 类型的 baseVM
+ */
 - (ThirdViewControllerVM *)baseVM;
 
 @end

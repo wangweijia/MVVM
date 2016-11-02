@@ -23,6 +23,11 @@
  */
 @property (nonatomic, strong) NSMutableArray *dataSource;
 
+/**
+ 为了方便转换成（ThirdViewController *）重写声明
+
+ @return ThirdViewController 类型
+ */
 - (ThirdViewController *)targetVC;
 
 @end
