@@ -28,8 +28,6 @@
  */
 - (void)vmPushViewController:(UIViewController *)viewController animated:(BOOL)animated;
 
-#pragma - mark MVVMViewControllerVMProtocol
-
 /**
  targetVC set方法
 

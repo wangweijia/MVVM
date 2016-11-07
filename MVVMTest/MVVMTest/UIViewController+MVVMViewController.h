@@ -18,8 +18,6 @@
  */
 - (instancetype)initMVVM_ViewController;
 
-#pragma - mark MVVMBaseViewControllerProtocol
-
 /**
  baseVM get方法
 
