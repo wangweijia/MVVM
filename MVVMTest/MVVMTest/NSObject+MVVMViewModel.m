@@ -34,13 +34,11 @@ static NSString *MVVM_targetVC = @"MVVM_targetVC";
 }
 
 - (UIViewController *)targetVC {
-//    NSAssert(NO, @"这个方法子类一定要重写，h文件中声明，m文件中实现");
-//    return _targetVC;
     return objc_getAssociatedObject(self, &MVVM_targetVC);
 }
 
 - (void)initialBind {
-//    NSAssert(NO, @"这个方法子类一定要重写，m文件中实现");
+    NSAssert(NO, @"用于绑定RAC，一定要重写");
 }
 
 @end

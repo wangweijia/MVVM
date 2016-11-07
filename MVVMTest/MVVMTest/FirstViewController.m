@@ -88,4 +88,8 @@
     }];
 }
 
+- (void)dealloc {
+    NSLog(@"FirstViewController dealloc");
+}
+
 @end

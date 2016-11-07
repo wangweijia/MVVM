@@ -12,7 +12,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MVVMBaseViewControllerVM<MVVMViewControllerVMProtocol> : NSObject {
-    UIViewController *_targetVC;
+    __weak UIViewController *_targetVC;
 }
 
 /**
