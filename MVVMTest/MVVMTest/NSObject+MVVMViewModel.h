@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
-#import "MVVMViewControllerVMProtocol.h"
 
-@interface NSObject (MVVMViewModel) <MVVMViewControllerVMProtocol>
+@interface NSObject (MVVMViewModel)
 
 /**
  初始化 控制器对应的 ViewMode

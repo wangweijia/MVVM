@@ -39,8 +39,6 @@
 		1865F3CE1D5032DC00BC56F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1865F3D71D5032DC00BC56F5 /* MVVMTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMTestUITests.m; sourceTree = "<group>"; };
 		1865F3D91D5032DC00BC56F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18699C5B1DC6F56E00173401 /* MVVMViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewControllerProtocol.h; sourceTree = "<group>"; };
-		18699C5C1DC6F60F00173401 /* MVVMViewControllerVMProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewControllerVMProtocol.h; sourceTree = "<group>"; };
 		18699C611DC71FC100173401 /* UIViewController+MVVMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MVVMViewController.h"; sourceTree = "<group>"; };
 		18699C621DC71FC100173401 /* UIViewController+MVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MVVMViewController.m"; sourceTree = "<group>"; };
 		18699C641DC71FE100173401 /* NSObject+MVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MVVMViewModel.h"; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				18699C5D1DC71E8800173401 /* Category */,
-				18699C5A1DC6F51500173401 /* Protocol */,
 				1865F3E71D50344600BC56F5 /* MainViewController */,
 				18699C671DC7439500173401 /* ThirdViewController */,
 			);
@@ -159,15 +156,6 @@
 				1865F3BB1D5032DB00BC56F5 /* Main.storyboard */,
 			);
 			name = MainViewController;
-			sourceTree = "<group>";
-		};
-		18699C5A1DC6F51500173401 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				18699C5B1DC6F56E00173401 /* MVVMViewControllerProtocol.h */,
-				18699C5C1DC6F60F00173401 /* MVVMViewControllerVMProtocol.h */,
-			);
-			name = Protocol;
 			sourceTree = "<group>";
 		};
 		18699C5D1DC71E8800173401 /* Category */ = {
